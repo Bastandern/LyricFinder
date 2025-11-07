@@ -61,126 +61,13 @@ LyricFinder 是一个功能强大、速度极快的命令行工具（CLI），�
     ```
 
   
-
-#### 💡 使用示例
-
-  
-
-  
-
-##### 1. 抓取歌词、保存 .txt 并下载专辑封面
-
-  
-  
-
-```bash
-
-  
-
-(venv)> lyricfinder song "Green Day" "American Idiot" --save --art
-
-  
-
-正在搜索 'Green Day - American Idiot' ...
-
---- American Idiot by Green Day ---
-
-  
-
-[Verse 1]
-
-Don't wanna be an American idiot
-
-Don't want a nation under the new media
-
-...
-
-(歌词内容)
-
-...
-
-  
-
-[成功] 歌词已保存到: lyric\Green Day - American Idiot.txt
-
-```
-
-##### 2. 获取“聚合”的歌曲/艺术家信息
-
-  
-  
-
-```bash
-
-(venv)> lyricfinder info "My Chemical Romance" "The Light Behind Your Eyes"
-
---- 正在聚合 'My Chemical Romance - The Light Behind Your Eyes' 的信息 ---
-
-正在抓取 Genius.com (获取歌曲简介)...
-
-正在抓取 Wikipedia (获取艺术家简介)...
-
---- 聚合报告 ---
-
-  
-
---- 歌曲简介 (来自 Genius.com) ---
-
-“The Light Behind Your Eyes” sees Gerard Way singing a letter to his daughter, Bandit Lee Way, reading similar to a suicide note. Though it could also feature MCR’s fourth studio album, Danger Days‘ lead…
-
-  
-
---- 艺术家简介 (来自 Wikipedia) ---
-
-我的另類羅曼史（英語：My Chemical Romance，簡稱MCR）是一組來自美國紐澤西的摇滚樂團，成立於2001年，解散於2013年，后于2019年10月31日宣布回归。在乐队的大部分时间，乐队由傑洛德·威（主唱）、麥基·威（貝斯手）、法蘭克·伊羅（節奏吉他）、雷·托羅（主吉他手）和鮑伯·布萊亞（鼓手）五人組成。樂團成員大多來自紐澤西，只有鼓手鮑伯·布萊亞來自芝加哥。
-
-  
-
-(来源: https://zh.wikipedia.org/wiki/%E6%88%91%E7%9A%84%E5%8F%A6%E9%A1%9E%E7%BE%85%E6%9B%BC%E5%8F%B2)
-
-```
-
-  
-
-##### 3. 自动识别本地 FLAC/MP3 文件
-
-  
-
-```bash
-
-(venv)> lyricfinder local "E:\Music\The Cure - Pictures of You.flac"
-
-  
-
-正在读取文件: E:\Music\The Cure - Pictures of You.flac ...
-
-成功识别! 艺术家: The Cure, 歌曲: Pictures Of You
-
-正在搜索 'The Cure - Pictures Of You' 的歌词...
-
---- Pictures Of You by The Cure ---
-
-  
-
-[Verse 1]
-
-I've been looking so long at these pictures of you
-
-...
-
-(歌词内容)
-
-...
-
-```
-
 ### 选项 B: Windows Executable (.exe) 文件使用 (推荐普通用户使用)
 
 如果你是 Windows 用户，可以直接下载已打包的 `lyricfinder.exe` 文件，无需安装 Python 环境。
 
 1. **下载文件:**
     
-    - 从 [GitHub Releases 页面](https://www.google.com/search?q=https://github.com/YourUsername/lyricfinder-project/releases "null") 下载最新的 `lyricfinder.exe` 文件。
+    - 从 [GitHub Releases 页面](https://www.google.com/search?q=https://github.com/YourUsername/lyricfinder-project/releases) 下载最新的 `lyricfinder.exe` 文件。
         
 2. **使用方法 (命令行):**
     
