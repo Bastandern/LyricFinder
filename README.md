@@ -67,7 +67,7 @@ LyricFinder 是一个功能强大、速度极快的命令行工具（CLI），�
 
 1. **下载文件:**
     
-    - 从 [GitHub Releases 页面](https://github.com/Bastandern/lyricfinder-project/releases) 下载最新的 `lyricfinder.exe` 文件。
+    - 从 [GitHub Releases 页面](https://github.com/Bastandern/lyricfinder/releases) 下载最新的 `lyricfinder.exe` 文件。
         
 2. **使用方法 (命令行):**
     
