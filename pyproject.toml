@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lyricfinder"
+version = "0.1.0"
+description = "一个命令行的音乐聚合器"
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "click",
+    "requests",
+    "beautifulsoup4",
+    "mutagen",
+]
+
+[project.scripts]
+lyricfinder = "lyricfinder.cli:cli"
