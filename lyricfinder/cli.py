@@ -1,7 +1,7 @@
 import click
 from pathlib import Path
-from . import scraper 
-from . import local_tools
+from lyricfinder import scraper 
+from lyricfinder import local_tools
 
 @click.group()
 def cli():
