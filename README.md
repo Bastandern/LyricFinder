@@ -34,7 +34,7 @@ LyricFinder 是一个功能强大、速度极快的命令行工具（CLI），�
 1. **克隆仓库:**
     
     ```
-    git clone [https://github.com/YourUsername/lyricfinder-project.git](https://github.com/YourUsername/lyricfinder-project.git)
+    git clone https://github.com/Bastandern/LyricFinder.git
     cd lyricfinder-project
     ```
     
@@ -67,7 +67,7 @@ LyricFinder 是一个功能强大、速度极快的命令行工具（CLI），�
 
 1. **下载文件:**
     
-    - 从 [GitHub Releases 页面](https://www.google.com/search?q=https://github.com/YourUsername/lyricfinder-project/releases) 下载最新的 `lyricfinder.exe` 文件。
+    - 从 [GitHub Releases 页面](https://github.com/Bastandern/lyricfinder-project/releases) 下载最新的 `lyricfinder.exe` 文件。
         
 2. **使用方法 (命令行):**
     
