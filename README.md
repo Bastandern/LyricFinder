@@ -51,37 +51,26 @@
 
 1.  克隆本仓库:
 
-    ```bash
-
-    git clone [请在这里粘贴你自己的 GitHub 仓库 URL]
-
-    cd lyricfinder-project
-
-    ```
+```bash
+git clone https://github.com/Bastandern/LyricFinder.git
+cd lyricfinder-project
+```
 
   
 
 2.  创建并激活 `venv` 虚拟环境 (推荐使用 Python 3.9+)：
 
-    ```bash
-
-    # (Windows)
-
-    py -3.9 -m venv venv
-
-    .\venv\Scripts\activate
-
-    ```
+```bash
+py -3.9 -m venv venv
+.\venv\Scripts\activate
+```
 
   
 
 3.  以“可编辑模式”安装所有依赖和工具：
-
-    ```bash
-
-    pip install -e .
-
-    ```
+```bash
+pip install -e .
+```
 
   
 
